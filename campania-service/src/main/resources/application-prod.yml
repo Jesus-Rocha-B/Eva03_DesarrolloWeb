@@ -1,0 +1,13 @@
+server:
+  port: 9092
+
+spring:
+  datasource:
+    url: jdbc:mysql://servidor-prod/bd_campania?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: rochabobadilla
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false

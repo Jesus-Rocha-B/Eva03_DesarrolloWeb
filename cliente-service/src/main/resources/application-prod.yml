@@ -1,0 +1,15 @@
+server:
+  port: 9091
+
+spring:
+  datasource:
+    url: jdbc:mysql://servidor-prod/bd_cliente_mkt?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: rochabobadilla
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+empresa:
+  ambiente: produccion
